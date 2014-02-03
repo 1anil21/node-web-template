@@ -23,6 +23,7 @@
     "request": "~2.33.0",
     "optimist": "~0.6.0",
     "async": "~0.2.9",
-    "connect-assets": "~2.5.3"
+    "connect-assets": "~2.5.3",
+    "konfig": "~0.1.0"
   }
 }
