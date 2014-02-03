@@ -3,7 +3,7 @@ A Node.js web-app template ready for you! (SEO friendly)
 
 This is an empty template for you to start off your web applicatoin. All the stuff used in this project are chosen carefully with an outstanding exprience of building webb-apps.
 
-This template is ready to run on Heroku!
+This template is ready to run on Heroku! You can find a **demo** running on Heroku here: http://node-web-template.herokuapp.com/
 
 ###Tech Stack Included
 - **Express** *as web framework* | http://expressjs.com
@@ -14,6 +14,7 @@ This template is ready to run on Heroku!
 - **CoffeeLint** *as style checker* | http://www.coffeelint.org
 - **MongoDB** *as database (obviously)* | http://www.mongodb.org
 - **Moongoose** *as object modelling for MongoDB* | http://mongoosejs.com
+- **Konfig** *as config manager and parser* | https://github.com/vngrs/konfig/
 
 ###What you will find inside
 - One template to rule them all: Use one template for front/back end
