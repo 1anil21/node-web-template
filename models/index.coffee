@@ -1,7 +1,7 @@
 global.mongoose = require('mongoose')
 
 connect = ->
-  mongoose.connect(app.get('mongo_config').url)
+  mongoose.connect(config.mongo.url)
   console.log 'Connected Mongodb'
 
 mongoose.connection.on 'error', (err) ->

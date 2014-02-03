@@ -5,7 +5,7 @@ argv = require('optimist').argv
 # load job files
 jobs = {}
 for name in argv._
-  jobs[name] = (done)->
+  jobs[name] = (done) ->
     require("./#{name}")(done)
     console.log "Finished #{name}, #{new Date}"
 
