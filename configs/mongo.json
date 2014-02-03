@@ -1,0 +1,13 @@
+{
+  "default": {
+    "url": "mongodb://localhost/template"
+  },
+
+  "test": {
+    "url": "mongodb://localhost/template_test"
+  },
+
+  "production": {
+    "url": "#{process.env.MONGOHQ_URL}"
+  }
+}

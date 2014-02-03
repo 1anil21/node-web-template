@@ -1,0 +1,9 @@
+{^layout}{+content/}{:else}{>layout/}{/layout}
+{@page_title value=model.title /}
+{<content}
+<div data-view='Article'>
+  <h2>{model.title}</h2>
+  <p id="article-content"><pre>{model.content}</pre></p>
+  <button id="destroy_article" class="button button-danger">Delete Article</button>
+</div>
+{/content}

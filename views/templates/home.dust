@@ -1,0 +1,8 @@
+{^layout}{+content/}{:else}{>layout/}{/layout}
+{@page_title value="Welcome to Template" suffix="false" /}
+{<content}
+<div id="home" data-view='Home'>
+  <h2>Welcome Home</h2>
+  <p>Description of the template...</p>
+</div>
+{/content}

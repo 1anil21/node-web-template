@@ -1,0 +1,10 @@
+{^layout}{+content/}{:else}{>layout/}{/layout}
+{@page_title value="New Article" /}
+{<content}
+<div data-view='NewArticle'>
+  <h2>New Article</h2>
+  <p><input id="title" placeholder="Article Title" /></p>
+  <p><textarea id="content" placeholder="Content"></textarea></p>
+  <button id="create_button" class="button">Create</button>
+</div>
+{/content}

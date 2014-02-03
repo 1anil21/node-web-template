@@ -1,0 +1,15 @@
+#= require vendor/jquery
+#= require vendor/json2
+#= require vendor/underscore
+#= require vendor/backbone
+#= require vendor/dust-core
+#= require vendor/dust-helpers
+#= require_tree plugins
+#= require_tree shared
+#= require router
+#= require app
+#= require_tree lib
+#= require_tree models
+#= require_tree collections
+#= require_tree views
+#= require routes

@@ -1,0 +1,16 @@
+{^layout}{+content/}{:else}{>layout/}{/layout}
+{@page_title value="All Articles" /}
+{<content}
+<div data-view='Articles'>
+  <h2>All Articles</h2>
+  {?model}
+    <ul>
+      {#model}
+        <li><a href="/articles/{id}">{title}</a></li>
+      {/model}
+    </ul>
+  {:else}
+    No article, create an article!
+  {/model}
+</div>
+{/content}

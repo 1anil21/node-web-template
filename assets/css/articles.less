@@ -1,0 +1,28 @@
+[data-view='NewArticle']{
+  input, textarea{
+    border: 1px solid @color-silver;
+    padding: 8px;
+    outline: none;
+    font-size: 13px;
+
+    .border-radius(2px);
+  }
+
+  #title{
+    width: 400px;
+  }
+
+  #content{
+    width: 100%;
+    height: 250px;
+
+    .box-sizing(border-box);
+  }
+}
+
+[data-view='Article']{
+  pre{
+    white-space: pre-wrap;
+    margin: 0;
+  }
+}
